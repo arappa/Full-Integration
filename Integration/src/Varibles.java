@@ -3,46 +3,49 @@
 
 //This code is an example of the use of multiple primitive data types.
 public class Varibles {
-	public static void randomVar() {
+  public static void randomVar() {
 
-		// int data type example
-		int x = 1;
-		int y = 2;
-		int sum = x + y;
-		System.out.println(sum);
+    // int data type example
+    int x = 1;
+    int y = 2;
+    int sum = x + y;
+    System.out.println(sum);
 
-		// char data type example
-		char one = 'C';
-		char two = 'h';
-		char three = 'a';
-		char four = 'r';
-		System.out.println(String.valueOf(one) + String.valueOf(two) + String.valueOf(three) + String.valueOf(four));
-		// You can also use System.out.println(one + "" + two + "" + three + "" + four);
+    // char data type example
+    char one = 'C';
+    char two = 'h';
+    char three = 'a';
+    char four = 'r';
+    System.out.println(String.valueOf(one) + String.valueOf(two)
+        + String.valueOf(three) + String.valueOf(four));
+    // You can also use System.out.println(one + "" + two + "" + three + "" +
+    // four);
 
-		// boolean data type example
-		boolean answer = true;
+    // boolean data type example
+    boolean answer = true;
 
-		if (answer == true) {
-			System.out.println("The answer is true");
-		} else {
-			System.out.println("The answer is false");
-		}
+    if (answer == true) {
+      System.out.println("The answer is true");
+    } else {
+      System.out.println("The answer is false");
+    }
 
-		/*
-		 * This was a random bit of code I messed with that I don't need to run but
-		 * would like in my project. Takes a boolean input (yes/no) from user and
-		 * outputs true or false with the use of an else if statement.
-		 * 
-		 * boolean userAnswer;
-		 * 
-		 * int answer = JOptionPane.showConfirmDialog(null,
-		 * "Select either true or false.", "Please Select", JOptionPane.YES_NO_OPTION);
-		 * 
-		 * if (answer == 1) { userAnswer = true; System.out.println("True"); } else {
-		 * userAnswer = false; System.out.println("False"); }
-		 */
+    /*
+     * This was a random bit of code I messed with that I don't need to run but
+     * would like in my project. Takes a boolean input (yes/no) from user and
+     * outputs true or false with the use of an else if statement.
+     * 
+     * boolean userAnswer;
+     * 
+     * int answer = JOptionPane.showConfirmDialog(null,
+     * "Select either true or false.", "Please Select",
+     * JOptionPane.YES_NO_OPTION);
+     * 
+     * if (answer == 1) { userAnswer = true; System.out.println("True"); } else
+     * { userAnswer = false; System.out.println("False"); }
+     */
 
-	}
+  }
 }
 
 // Variable: used to store information to be referenced and used by programs.
